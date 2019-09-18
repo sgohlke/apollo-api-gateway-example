@@ -3,8 +3,8 @@ const { ApolloGateway } = require("@apollo/gateway");
 
 const gateway = new ApolloGateway({
     serviceList: [
-        { name: "persons", url: "http://localhost:7000/graphql" },
-        // List of federation-capable GraphQL endpoints...
+        { name: "persons", url: "http://localhost:7001/graphql" },
+        { name: "employees", url: "http://localhost:7002/graphql" }
     ],
     debug: true
 });
