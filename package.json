@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@apollo/gateway": "0.16.4",
-    "apollo-server": "2.9.3"
+    "apollo-server": "2.14.2"
   }
 }
